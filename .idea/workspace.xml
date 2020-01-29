@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39508829-b129-4385-89c6-acf5ad2f7c26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="39508829-b129-4385-89c6-acf5ad2f7c26" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.lesson 8.2">
+  <component name="RunManager" selected="Python.lesson 8.3">
     <configuration name="lesson 6.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HW" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,8 +73,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lesson 8.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HW" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson 08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson 08/lesson 8.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson 8.3" />
         <item itemvalue="Python.lesson 8.2" />
         <item itemvalue="Python.lesson 6.1" />
       </list>
@@ -108,21 +128,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1579717925094">
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1580304222209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1580304222209" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579717925094" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1579717925094">
+    <state width="1899" height="278" key="GridCell.Tab.0.center" timestamp="1580304222209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1580304222209" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579717925094" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1579717925094">
+    <state width="1899" height="278" key="GridCell.Tab.0.left" timestamp="1580304222209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1580304222209" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579717925094" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1579717925094">
+    <state width="1899" height="278" key="GridCell.Tab.0.right" timestamp="1580304222209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.2.1920.1040@0.0.1920.1040" timestamp="1580304222209" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579717925094" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1579715257677">
       <screen x="0" y="0" width="1920" height="1040" />
