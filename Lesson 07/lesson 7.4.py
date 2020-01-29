@@ -4,6 +4,13 @@ from abc import ABC, abstractmethod
 
 # region инициализация классов
 class Storage:
+    def _valid(self, valid_class, valid_count):
+        if not type(valid_class) is Printer and not type(valid_class) is Scanner and not type(valid_class) is Xerox:
+            return True
+        if not type(valid_count) is int:
+            return True
+        return False
+
     def __init__(self):
         self.position = {}
 
@@ -17,6 +24,8 @@ class Storage:
         return line
 
     def __add__(self, other):
+        if self._valid(other[0], other[1]):
+            return
         if not list(self.position.keys()).count(other[0].name):
             self.position[other[0].name] = []
         if [item for sub in self.position[other[0].name] for item in sub.keys()].count(other[1]) == 0:
@@ -24,6 +33,8 @@ class Storage:
         return
 
     def __sub__(self, other):
+        if self._valid(other[0], other[1]):
+            return
         if not list(self.position.keys()).count(other[0].name) or not len([x for x in self.position[other[0].name] if list(x.keys())[0].model == other[0].model]):
             print('Указанной модели нет на складе')
             return
@@ -92,4 +103,7 @@ storage + (Scanner('B1150', 7500), 1)
 print(storage)
 
 storage - (Printer('A100', 5000), 2)
+print(storage)
+
+storage + (Xerox('sadas', 'asdas'))
 print(storage)
